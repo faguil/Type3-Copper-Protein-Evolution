@@ -6,7 +6,7 @@ This GitHub repository provides the supplementary data referenced in the publica
 
 All files are publicly available and can be used for further research or other applications. However, if you utilize these resources in your work, we kindly request that you cite our original publication.
 
-**Origin, evolution and classification of type-3 copper proteins: lineage-specific gene expansions and losses across the Metazoa.** Felipe Aguilera, Carmel McDougall and Bernard M. Degnan. *BMC Ecology and Evolution* **13**:96 (2013). https://doi.org/10.1098/rsif.2013.0041.
+**Origin, evolution and classification of type-3 copper proteins: lineage-specific gene expansions and losses across the Metazoa.** Felipe Aguilera, Carmel McDougall and Bernard M. Degnan. *BMC Ecology and Evolution* **13**:96 (2013). https://doi.org/10.1186/1471-2148-13-96.
 
 **Abstract**
 
