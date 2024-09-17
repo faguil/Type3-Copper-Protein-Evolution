@@ -1,0 +1,411 @@
+#NEXUS
+[written Mon Mar 04 19:01:54 EST 2013 by Mesquite  version 2.75 (build 566) at d-i191-19-46.student.eduroam.uq.edu.au/10.191.19.46]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=46;
+	TAXLABELS
+		Suberites_domuncula_tyr Saccoglossus_kowalevskii_tyrd Saccoglossus_kowalevskii_tyrc Saccoglossus_kowalevskii_tyrb Saccoglossus_kowalevskii_tyra Branchiostoma_floridae_tyrh Branchiostoma_floridae_tyre Branchiostoma_floridae_tyrf Branchiostoma_floridae_tyrg Branchiostoma_floridae_tyrd Branchiostoma_floridae_tyrc Branchiostoma_floridae_tyra Branchiostoma_floridae_tyrb Branchiostoma_floridae_tyri Branchiostoma_floridae_tyrl Branchiostoma_floridae_tyrk Branchiostoma_floridae_tyrj Branchiostoma_floridae_tyrm Mus_musculus_Tyr Homo_sapiens_TYR Branchiostoma_floridae_tyrA1 Branchiostoma_floridae_tyrC1 Branchiostoma_floridae_tyrB1 Mus_musculus_Tyrp1 Homo_sapiens_TYRP1 Mus_musculus_Tyrp2 Homo_sapiens_TYRP2a Homo_sapiens_TYRP2b 'Ciona intestinalis tyr1/2b' 'Ciona intestinalis tyr1/2a' 'Branchiostoma floridae tyr1/2b' 'Branchiostoma floridae tyr1/2a' Ciona_intestinalis_tyr Capitella_teleta_tyr2 Capitella_teleta_tyr1 Clonorchis_sinensis_tyr5 Clonorchis_sinensis_tyr4 Clonorchis_sinensis_tyr3 Schistosoma_japonicum_tyr Schistosoma_mansoni_tyr4 Schistosoma_mansoni_tyr2 Schistosoma_mansoni_tyr3 Schistosoma_mansoni_tyr1 Clonorchis_sinensis_tyr2 Clonorhis_sinensis_tyr1 Schmidtea_mediterranea_tyr 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  'gamma alignment_BI';
+	DIMENSIONS  NCHAR=149;
+	FORMAT DATATYPE = Protein GAP = - MISSING = ?;
+	MATRIX
+	Suberites_domuncula_tyr         HNFIARDGTQHSGPSFPVWHRRYMLTVEKEFQRIMGNDTFGFPYWQWEENDMTPEYFGVPASVSGSLVQDWNTICCNPALARPVQRGGGSYLPNTVEVMISLSFRSRLEGWHMHNNVHVWVGGQMDVVPAAVNDPIFNLHHCNVDRIFW
+	Saccoglossus_kowalevskii_tyrd   HYYVSRDNIRHGGPGFPTWHRYFMLLWERALQKVSNNEEFALPYWDWAGELNTDTYFGKSTDTVTGTFANWPAICCSNTNTPRIQRNPGGVLPSKEAVYYALSFRNVLEGFQLHNQVHIYLNGTMSDVPIAPNDPIFILHHSNVDRIFW
+	Saccoglossus_kowalevskii_tyrc   HYYSVWDNIVHSGPGFPTWHRSFIQLWEMALQKVSNNEEFALPYWDWAGEPNTDTYFGKSTDTVTGTFANWPAICCSNTNTPRIQRNPGGVLPSKEAVYYALSFRNVLEGYQLHNQVHLYFNGTISVIANAPSDPIFILHHVNVDRILW
+	Saccoglossus_kowalevskii_tyrb   HYYAARENIRHAGPAFLTWHRAYLLLFERMIQQVNNDDDFAIPYWDWSGAPNTEEYMGKNSSNILGEFSGWKDLCCSNNNLPSITRNPGGELPSLEALYYTLSFRNILEGFQSHNQVHSYMNGTMGVVETSPNDPMFWLHHSNVDRIMW
+	Saccoglossus_kowalevskii_tyra   HYYAARENIRHAGPAFLTWHRAYLLLFERMIQQVNNDDDFAIPYWDWSGAPNTEEYMGENSSNILGEFSGWKDLCCSNVNLPSITRHPGSELPSLDALYYTLSFRNILEGFQSQNRVHSYLNGTMGIVASSPNDPMFWLHHSNVDRIMW
+	Branchiostoma_floridae_tyrh     HYYASRATTPHEGAGFPTWHRAYLLEFDRAVQEVNNDPDWTLPYWDWGAAEDTNEYVGANDDDSRSVFASWGTICCNVTVLGKLKRNPGKRLPLATEVDFALSFRNLLEGTTMHNQVHIYLNGTMSHVPSAANDPTFFLHHCNVDRLLW
+	Branchiostoma_floridae_tyre     HYYASRDTMPHEGVGFPTWHRAYLLEFERAVQEVNDDPDWTVPYWDWSAAEDTNEYVGKNDDEPESVFASWWTICCNVTVTGTLKRNPGKHLPLATEVDFALTFRNLLEGYTLHNHVHLYLDGTMSNVPSAANDPTFFLHHCNVDRLLW
+	Branchiostoma_floridae_tyrf     HYYASRDTMPHEGVGFPTWHRAYVLEIERALQEVNNDPDWTLPYWDWSAAAKTNEYVGSNDNDSESAFTSWGTICCDVTVLGKLKRNPGKRLPLATEVDFALSFRNLLEGFTVHNQVHIYLNGTMSSVPSAANDPTFFLHHCNVDRLLW
+	Branchiostoma_floridae_tyrg     HYYASRATMPHKGPAFTTWHRAYLLEFERAVQVVNNDPDWTLPYWDWSAAEDTNEYVGANDDDSGSVFASWGIICCDVTVLGKLNRNPGQHLPLVTEVDFALSFRNLLEGYSMHNQVHIYLNGTMSHVPSAPNDPMFFLHHCNVDRLFW
+	Branchiostoma_floridae_tyrd     HYYASRETMPHDGSGFLTWHRAYVLEVERALQEVNGDPDWTMPYWDWGAAEKTNEYVGANNHDTGSLFASWRTICCNVTASGKLKRNPGHHLPLATEVDFALSFRNLLEGNTLHDEVHIYLNGTMSNVPTAPNDPMFFLHHCNVDRLLW
+	Branchiostoma_floridae_tyrc     HYYASRETMPHDGSGFLTWHRAYVLEVERALQEVNGDPDWTMPYWDWGAAEKTNEYVGANNHDTGSLFASWRTICCNVTASGKLKRNPGHHLPLATEVDFALSFRNLLEGNTLHDEVHIYLNGTMSNVPTAPNDPMFFLHHCNVDRLLW
+	Branchiostoma_floridae_tyra     HYYASRETLPHEGAGFPTWHRAFLLEAERALQEVNGDPDWTLPYWDWSAAEQTNEYVGTNDHDSESIFATWRTICCDVTPTGRLKRNPGHRLPLATEVDFALSFRNLLDGFTLHNHVHLYLNGTMSTVITAANDPIFLLHHSNVDRLFW
+	Branchiostoma_floridae_tyrb     HYYASRETLPHEGAGFPTWHRAFLQEAERALQEVNGDPDWTIPYWDWSAAEQTNEYVGANDGDSESSFATWRTLCCDVTPTGRLKRNPGHRLPLATEVDFALNFRNLLEGFTLHNHVHLYLNGTMSTVITAANDPIFLLHHANVDRLFW
+	Branchiostoma_floridae_tyri     HYYASRATMPHEGVGFPTWHRAYVLEFERAVQEVNDDSDWTLPYWDWSAAEDTNDYVGKNDDDTGSVFANWETICCNVTGTGKLKRNPGNRLPYTTEVDFALSFRNLLEGYTLHNHVHIYLDGTMSDVPSAANDPIFFLHHCNVDRLFW
+	Branchiostoma_floridae_tyrl     HYYASRATMPHEGSGFPTWHRAFLLDLERALQEVNNDPDFTIPYWDWTEAENTNDYVGANYDDPRSLFATWETICCNVTRDGHVMRNPGHRLPTAAEVDFGLTFRNLLEGFTLHNHVHLYLDGTMSAVPSSANDPIFFLHHCFVDRIFW
+	Branchiostoma_floridae_tyrk     HYYASRETILHDAVGFLTWHRGYLLEMERSIQEVNNDPDWAIPYWDWTVSEQTNDFVGANDNDSGSAFAGWEALCCDPNPPEKLKRNPGTELPRKEEVDFALVFRNLVEGYTLHNHVHLYLNGTMSDVPSSANDPIFWLHHAFIDRIFW
+	Branchiostoma_floridae_tyrj     HYYASRETILHDAVGFLTWHRGYLLEMERLIQEVNNDPDWALPYWDWTVSEQTNDFVGANDNDSGSAFAGWEVLCCDPNPPEKLKRNPGTELPRKEEVDFALVFRNLVEGYTLHNHVHLYLNGTMSDVPSSANDPIFWLHHAFIDRIFW
+	Branchiostoma_floridae_tyrm     QYYAGVHSFPQGSAGFATWNRAFLVAFELAVQVVNADYDFALPYYDWTESSSSNDLVGANNSDDMSVFSRWNTVCCDVNDTGPIIRKADGSLPAKKEVNFAQSFRNLLEGFYLNEQVHQSLGGTMSQLWQASNDPIFYLHRCFMDRIFW
+	Mus_musculus_Tyr                HYYVSRDTLLHEAPGFLPWHRLFLLLWEQEIRELTGDENFTVPYWDWRDAENTDEYLGGRHESPASFFSSWQIICCDGTPEGPLLRNPGNRLPSSADVEFCLSFRNTLEGFSMHNALHIFMNGTMSQVQGSANDPIFLLHHAFVDSIFW
+	Homo_sapiens_TYR                HYYVSMDALLHEAPAFLPWHRLFLLRWEQEIQKLTGDENFTIPYWDWRDAEKTDEYMGGQHTSPASFFSSWQIVCCNGTPEGPLRRNPGNRLPSSADVEFCLSFRNTLEGFSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFW
+	Branchiostoma_floridae_tyrA1    HYYVVRNVLLHEGPAFLPWHRLYLLLLERELAKIIGDENFALPYWDWRDLADTNDFFGASLDSSGSFLSGWQIVCCDGTPEGPLQRNPGKSLPTWEEVQGALSFRNSLEGFYLHAAVHVWMNGTVSLPAASPNDPVFFLHHAFVDSIYW
+	Branchiostoma_floridae_tyrC1    HYYVSRNVLLHEGPVFLPWHRLFLLLWERELARFVDDENFAIPYWDWRGLDGTDDFLGATPNSNETVFSDWQVICCDGSPEGPLLRNPGTTLPTWQDVLDVLSFVNSLEGFYLHNAVHRFMNGTLSSVGSSANDPIFIIHHAYVDSIYW
+	Branchiostoma_floridae_tyrB1    HYYVSRNVLLHEGPVFLPWHRLFLLLWERELARFVDDENFAIPYWDWRGLDGTDDFLGATPNSNETVFSDWQVICCDGSPEGPLLRNPGTSLPTWQDVRDVLSFVNTLEGFYLHNAVHRFMNGTLSSVGSSANDPIFIIHHAYVDSIYW
+	Mus_musculus_Tyrp1              HYYSVKKTFLHEGPAFLTWHRYHLLQLERDMQEMLQEPSFSLPYWNFATGKNTDDLMGSRSFSPNSVFSQWRVVCCNSTEGGPIRRNPAGRLPEPQDVTQCLSFRNTVEGYSLHNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDAVFW
+	Homo_sapiens_TYRP1              HYYSVKKTFLHEGPAFLTWHRYHLLRLEKDMQEMLQEPSFSLPYWNFATGKNTDDLMGSRSFSPNSVFSQWRVVCCNSTEDGPIRRNPAGRLPEPQDVAQCLSFRNTVEGYSLHNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDAVFW
+	Mus_musculus_Tyrp2              HYYSVRDTLLHQGPAFVTWHRYHLLWLERELQRLTGNESFALPYWNFATGKNTDELLGAARDSRNSRFSTWEIVCCNGTYEGLLRRNKVGKLPTLKNVQDCLSFRNALEGFNLHNLAHSFLNGTNALPHSAANDPVFVVLHSFTDAIFW
+	Homo_sapiens_TYRP2a             HYYSVRDTLLHQGPAFVTWHRYHLLCLERDLQRLIGNESFALPYWNFATGRNTDQLFGAARDSRNSRFSSWETVCCNGTYEGLLRRNQMGKLPTLKDIRDCLSFRNALEGFSLHNLVHSFLNGTNALPHSAANDPIFVVLHSFTDAIFW
+	Homo_sapiens_TYRP2b             HYYSVRDTLLHQGPAFVTWHRYHLLCLERDLQRLIGNESFALPYWNFATGRNTDQLFGAARDSRNSRFSSWETVCCNGTYEGLLRRNQMGKLPTLKDIRDCLSFRNALEGFSLHNLVHSFLNGTNALPHSAANDPIFVVLHSFTDAIFW
+	'Ciona intestinalis tyr1/2b'    HYYSVRDTLLHEGPAFLTWHRMHLLGLENDLQDLSGDPTFALPYWDFAIGGTTDELLGGQETGSNSRFADWEVVCCNGTNEGPIRRNPGGSLPVPEDVAECLSFRNALEGYTLHNLAHLFLNGTGGMTHASANDPIFVLLHTFTDAIFW
+	'Ciona intestinalis tyr1/2a'    HYYSVRDTLLHEGPAFLTWHRMHLMGLENDLQVLSNDPTFALPYWDFAIGGSTDDILGGQNNGPNSTFADWEVVCCNGTFEGPIRRNPGGTLPATEDVIKCLSFRNALEGYTLHNLAHLFLNGTGGMTHASANDPVFVLLHTFTDAIFW
+	'Branchiostoma floridae tyr1/2b' HYYAVRDTLLHEGPAYNTWHRMHLLWLEREMQKMLGDETFALHYWDWAVGGTTDDMMGARHLSPGSPFSRWQSVCCNGTDEGPIFRNPGGVLPRPEDVGRCLSFRNSLEGYSLHNLAHLFLNGTGGITHASANDPIFVLLHSYSDAIFW
+	'Branchiostoma floridae tyr1/2a' HYYAVRDTLLHEGPAYNTWHRMHLLWLEREIQKMLGDETFALHYWDWAVGGTTDDMMGARHLSPGSPFSRWQSVCCNGTDEGPIFRNPGGVLPRGRDVGRCLSFRNTLEGFSLHNLAHLFLNGTASITHASANDPIFVLLHSYSDAIFW
+	Ciona_intestinalis_tyr          HAYVSRDNLVHEGPAFLPWHRYYLLKWEQELRDVVNDVTFTIPYWDWRDNQDNDVMMGGNDDSQGSPISKWEIICCTGASEGPLLRSPGNGLPTSQEVDDVISFRNLVEGFYLHNAVHLFMNGTMSEVATSANDPIFVLHHAYVDSLYW
+	Capitella_teleta_tyr2           HFFSVKTPIKHNGPGFPTWHRRFLLEFERELQRASGDEQMGIPYWDWTDHAHTNDLVGEMVDDRGSDFWNWTMRCCNMSPPSQIWRLPTGNLPILEDISFALSFRNCLEGFSLHGQGHTFFSGSVNAVPISPSDPLFYLHHAYVDKILW
+	Capitella_teleta_tyr1           HYFSTKNAEVHNGPGFLTWHRLYLMMMEREMGRVAGDPFFALPYWNWSGAGVTDDLAGSINSSTGSPFSRWESACCDLRPRGPVIRDPEAFLPPMEDVIFTLSFRNCIEGFTMHIQVHSFFRGTISQVSSSPDDPLFFFHHTYIDKLFW
+	Clonorchis_sinensis_tyr5        HNYSSRTTLYHDGPEFPTWHRYLMLIWERLLAEIAGIKDFTLPYWDWVGLLKDNKYVGAPGKDSESIFYNVTNYCCQAGRAGKLVRRFVSVFPTQADVAFVLSFHMALEGFWMHNKVHNMIDGAMRSTATATNDPFFILHHNFVDKLLW
+	Clonorchis_sinensis_tyr4        NSYGSRTTLYHDGPTFPTWHRYLMLIWERMLAEIAGIKNFALPYWDWVGLLKDNKYVGAPGRDSRSIFYNATNYCCQAGRVGKLVRKFVSVFPNQADIAFILSFHMALEGFWTNNKVHNMIEGSMQRTATATNDPIYILHQVFIDKLLW
+	Clonorchis_sinensis_tyr3        HRYGARPTLYHDGVTFPTWHRYFQLIWERMLSNIAGIHNFAVPYWDMIGLEKTDDYVGGPGRSPNSAFTGFQEYCCQGTPNTTITRQFLTAFPNQEDLYFTLSFHMALEGYWMHNRLHRMINGSMCCTSTATNDPIFIVLHNFVDKIFW
+	Schistosoma_japonicum_tyr       HRYGSRSTLYHDGVCFPTWHRYYILLWERLMSRITGITDYATPYWDWVGLKHTNRYIGAPGESTGSPFHNLTEYCCQRGNRGTITRNFYRDLPDIDDLKFVLSFHMALEGFWFHNKVHVLIDGSMCCTGTASNDPIFVLHHALTDKIFW
+	Schistosoma_mansoni_tyr4        HRYGSRSTLYHDGVCFPTWHRYYGLLWERLMSKIAGITDFATPYWDWTGLTYTNRYIGAPGDSSRSPFSNLTEFCCQKSKRLTITREFKKNLPDVEDLKYVLSFNIALEGFWFHNKLHVLVDGSMCCTGTASNDPLFILHHTFIDKIFW
+	Schistosoma_mansoni_tyr2        HRYGSRSTLYHDGVCFPTWHRYYGLLWERLMSKIAGITDFATPYWDWTGLTYTNRYIGAPGDSSRSPFSNLTEFCCQKSKRLTITREFKKNLPDVEDLKYVLSFNIALEGFWFHNKLHVLVDGSMCCTGTASNDPLFILHHTFIDKIFW
+	Schistosoma_mansoni_tyr3        HRYGSRSTLYHDGVCFPTWHRYYGLLWERLMSKIAGITDFATPYWDWTGLTYTNRYIGAPGDSSRSPFSNLTEFCCQKSKRLTITREFKKNLPDVEDLKYVLSFNIALEGFWFHNKLHVLVDGSMCCTGTASNDPLFILHHTFIDKIFV
+	Schistosoma_mansoni_tyr1        HRYASRATLFHEVVGFLTWHRYYMLFWERHLRKIAGWTDFTIPYWDWVDSTRVNSLLGGYGGDPRSPFYMWPEYCCHAGNFRVLTRYFESAFPTTHNLLFTLGFHQALEGFFMHNKVHNVVSGTFCCAATSPNDPLFLVHHTQIDRIFW
+	Clonorchis_sinensis_tyr2        HEYASRGTLYHHVLGFATWHRYFMLVWERQLRKIAGWKDFAVPYWDWIDADKVNSLVGAPGDHRDSPFSNWTEQCCHSANFKPLNRHYKQAFPTTKDLQFTLGFHQALEGFFMHNKVHNMVHGSFCCASTAANDPLFLLHHSQIDRIMW
+	Clonorhis_sinensis_tyr1         HVYASRSTLTHKGPGFPTWHRAYVLFVEEELGRLTDGDNFALPYWDWTGQTGTTDLVGAFLNLDSSPFADWVTFCCDPGLTSNGRKSPMARLPDQLDVDITLSFRDLLEGFHMHNLVHSYFNGSWFDVATSPNDPIFFLHHTFVDKLFW
+	Schmidtea_mediterranea_tyr      HFYASRSTMSHKGPAFFTWHRHYLLMFEDLLRSIAGYFNFTLPYWDWTNQTTTNDLLGDIPEESNSTFFKWKPICCDPSEEPFLWRKYSSRLPNQNEIDELFSFRNFAEGYMMHNMVHSFINGTWMDFTTSPNDPLFLLHHTFMDKIFW
+
+;
+
+
+END;
+
+BEGIN TREES;
+	Title 'gamma tree_BI';
+	LINK Taxa = Taxa;
+	TRANSLATE
+		1 Suberites_domuncula_tyr,
+		2 Saccoglossus_kowalevskii_tyrd,
+		3 Saccoglossus_kowalevskii_tyrc,
+		4 Saccoglossus_kowalevskii_tyrb,
+		5 Saccoglossus_kowalevskii_tyra,
+		6 Branchiostoma_floridae_tyrh,
+		7 Branchiostoma_floridae_tyre,
+		8 Branchiostoma_floridae_tyrf,
+		9 Branchiostoma_floridae_tyrg,
+		10 Branchiostoma_floridae_tyrd,
+		11 Branchiostoma_floridae_tyrc,
+		12 Branchiostoma_floridae_tyra,
+		13 Branchiostoma_floridae_tyrb,
+		14 Branchiostoma_floridae_tyri,
+		15 Branchiostoma_floridae_tyrl,
+		16 Branchiostoma_floridae_tyrk,
+		17 Branchiostoma_floridae_tyrj,
+		18 Branchiostoma_floridae_tyrm,
+		19 Mus_musculus_Tyr,
+		20 Homo_sapiens_TYR,
+		21 Branchiostoma_floridae_tyrA1,
+		22 Branchiostoma_floridae_tyrC1,
+		23 Branchiostoma_floridae_tyrB1,
+		24 Mus_musculus_Tyrp1,
+		25 Homo_sapiens_TYRP1,
+		26 Mus_musculus_Tyrp2,
+		27 Homo_sapiens_TYRP2a,
+		28 Homo_sapiens_TYRP2b,
+		29 'Ciona intestinalis tyr1/2b',
+		30 'Ciona intestinalis tyr1/2a',
+		31 'Branchiostoma floridae tyr1/2b',
+		32 'Branchiostoma floridae tyr1/2a',
+		33 Ciona_intestinalis_tyr,
+		34 Capitella_teleta_tyr2,
+		35 Capitella_teleta_tyr1,
+		36 Clonorchis_sinensis_tyr5,
+		37 Clonorchis_sinensis_tyr4,
+		38 Clonorchis_sinensis_tyr3,
+		39 Schistosoma_japonicum_tyr,
+		40 Schistosoma_mansoni_tyr4,
+		41 Schistosoma_mansoni_tyr2,
+		42 Schistosoma_mansoni_tyr3,
+		43 Schistosoma_mansoni_tyr1,
+		44 Clonorchis_sinensis_tyr2,
+		45 Clonorhis_sinensis_tyr1,
+		46 Schmidtea_mediterranea_tyr;
+	TREE con_50_majrule = (1:0.3708553011784541,(((2:0.03280018437247154,3:0.1114269283404914):0.1231623965269222,(4:0.013077874481502,5:0.04784298080369961):0.2894851627445335):0.1962201718600934,((18:0.5386259144445545,(15:0.126105091515733,((16:0.00841684608390134,17:0.01009183664557641):0.2458497304845762,(14:0.07004601832254358,((7:0.07384055675845247,8:0.08180654393762092,(6:0.03650122880483223,9:0.08011499956467841):0.02285651461387047):0.03686537215881946,((10:0.003815653298890852,11:0.003730610194693925):0.1035817893171057,(12:0.01707726311356271,13:0.04350377733590937):0.09407171646789983):0.05530919216338462):0.03209580958437435):0.05911019888167272):0.06688536727770075):0.05330118135518978):0.0970434239725149,((((34:0.4580419588222356,35:0.441288114403087):0.1325215025411661,(45:0.3668757129417114,46:0.4270849137798134):0.1490998501294593):0.09898346093566986,((43:0.2454908965878471,44:0.140988669705198):0.2000415728846868,(38:0.254639822077458,((36:0.07521639802166952,37:0.09651156662554232):0.2421743157376172,(39:0.1048407829813983,(40:0.003844314313308133,41:0.003913925981411912,42:0.009346201668653902):0.1283644085948113):0.1899590005011199):0.04214844593796495):0.1531343488201746):0.4054387614519911):0.09301987033798506,(((19:0.03434367173943786,20:0.06179282610089001):0.1205729471145943,(33:0.3130238431985176,(21:0.1910755886576181,(22:0.01735044148302162,23:0.007182854617404231):0.1848696777960066):0.08898647680418134):0.08574920952269185):0.07707105146853871,((31:0.008005462987506214,32:0.04382229338044876):0.1238243860711432,((29:0.03982838274571782,30:0.08897140434397277):0.1274688456382839,((24:0.01890093769528196,25:0.01115386270382677):0.1956035253765875,(26:0.04269481223814361,(27:0.003931590618980988,28:0.003798511470410187):0.05196565109526435):0.2548882553972298):0.04942293921050411):0.07596766257451759):0.288144374665552):0.131364623178271):0.1028826325651615):0.135955801660977):0.3708553011784541);
+
+END;
+
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  149;
+
+END;
+
+BEGIN CODONS;
+	CODESET * UNTITLED   =  universal:  1 -  149;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1 -  149;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1362387714219;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 4632691327686375404;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 5810097476823593060;
+			mqVersion 275;
+			checksumv 0 3 59017723 null  getNumChars 149 numChars 149 getNumTaxa 46 numTaxa 46   short false   bits 1048575   states 1048575   sumSquaresStatesOnly 1.04693735562641E14 sumSquares 1.04693735562641E14 longCompressibleToShort false usingShortMatrix false   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState true false 100;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1280 966;
+			setLocation 0 22;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			setActive;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #4632691327686375404 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #4632691327686375404;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 0 -67;
+					setLocation 0 22;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #4632691327686375404  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 8165.1362361747159.4950551841826997103;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 0 -67;
+					setLocation 0 22;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareTree.SquareTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle on;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+						endTell;
+						setEdgeWidth 6;
+						orientUp;
+						setCornerMode Right_Angle  50;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					showWindow;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					setDigits 4;
+					writeAsPercentage off;
+					toggleCentred on;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #5810097476823593060 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 0 -67;
+					setLocation 0 22;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

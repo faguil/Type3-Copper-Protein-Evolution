@@ -1,0 +1,515 @@
+#NEXUS
+[written Mon Mar 04 11:44:00 EST 2013 by Mesquite  version 2.75 (build 566) at d-i191-19-46.student.eduroam.uq.edu.au/10.191.19.46]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=98;
+	TAXLABELS
+		Vitis_vinifera_CO Oryza_sativa_CO Glycine_max_CO12 Glycine_max_CO11 Glycine_max_CO9 Glycine_max_CO8 Glycine_max_CO10 Glycine_max_CO7 Glycine_max_CO6 Glycine_max_CO2 Glycine_max_CO1 Glycine_max_CO5 Glycine_max_CO4 Glycine_max_CO3 Phragmatopoma_californica_tyr Brugia_malayi_TYR2 Brugia_malayi_TYR4 Caenorhabditis_briggsae_TYR2 Caenorhabditis_remanei_TYR2 Caenorhabditis_elegans_TYR2 Caenorhabditis_briggsae_TYR5 Caenorhabditis_briggsae_TYR1 Caenorhabditis_elegans_TYR1 Caenorhabditis_remanei_TYR1 Brugia_malayi_TYR3 Brugia_malayi_TYR1 Caenorhabditis_briggsae_TYR3 Caenorhabditis_elegans_TYR3 Caenorhabditis_remanei_TYR3 Caenorhabditis_briggsae_TYR4 Caenorhabditis_remanei_TYR4 Caenorhabditis_elgans_TYR4 Caenorhabditis_briggsae_TYR6 Caenorhabditis_elegans_TYR5 Pinctada_fucata_tyr2 Pinctada_fucata_tyr3 Pinctada_fucata_tyr4 Pinctada_fucata_tyr1 Lottia_gigantea_tyr2 Caenorhabditis_remanei_TYR5 Illex_argentinus_tyr1 Illex_argentinus_tyr2 Sepia_officinalis_tyr Lottia_gigantea_tyr1 Neurospora_crassa_tyr3 Neurospora_tetrasperma_tyr3 Neurospora_crassa_tyr2 Neurospora_tetrasperma_tyr2 Neurospora_crassa_tyr1 Neurospora_tetrasperma_tyr1 Dictyostelium_discoideum_tyr2 Dictyostelium_discoideum_tyr1 Candidatus_nitrosopumilus_tyr Streptomyces_tsukubaensis_tyr Streptomyces_venezuelae_tyr Bacillus_megaterium_tyr2 Bacillus_megaterium_tyr1 Nitrosomonas_europeae_tyr Polysphondylium_pallidum_tyr1 Sepia_officinalis_Hc Megathura_crenulata_Hc Nucula_nucleus_Hc Aplysia_californica_Hc Ciona_intestinalis_HcF Ciona_intestinalis_HcE Ciona_intestinalis_HcG Ciona_intestinalis_HcH Ciona_intestinalis_HcI Ciona_intestinalis_HcD Ciona_intestinalis_HcC Ciona_intestinalis_HcB Ciona_intestinalis_HcA Agaricus_bisporus_tyr Nematostella_vectensis_tyr4 Nematostella_vectensis_tyr3 Nematostella_vectensis_tyr1 Nematostella_vectensis_tyr2 Hydra_magnipapillata_tyr Ectocarpus_siliculosus_tyr12 Ectocarpus_siliculosus_tyr13 Ectocarpus_siliculosus_tyr16 Ectocarpus_siliculosus_tyr18 Ectocarpus_siliculosus_tyr17 Ectocarpus_siliculosus_tyr14 Ectocarpus_siliculosus_tyr15 Ectocarpus_siliculosus_tyr7 Ectocarpus_siliculosus_tyr11 Ectocarpus_siliculosus_tyr10 Ectocarpus_siliculosus_tyr8 Ectocarpus_siliculosus_tyr9 Ectocarpus_siliculosus_tyr4 Ectocarpus_siliculosus_tyr3 Ectocarpus_siliculosus_tyr2 Ectocarpus_siliculosus_tyr1 Ectocarpus_siliculosus_tyr6 Ectocarpus_siliculosus_tyr5 Aspergillus_aculeatus_tyr Lottia_gigantea_Hc 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  'Matrix in file "alignment_typealpha.nex"';
+	DIMENSIONS  NCHAR=114;
+	FORMAT DATATYPE = Protein GAP = - MISSING = ?;
+	MATRIX
+	Vitis_vinifera_CO              MRRAAHLVDDDYIAKYRNAVSIMKDPRSFLSQANLHCIYCVHRSWLFFPWHRMMLYFHERILGISFALPFWNWDVVDLNYEAPHNTLHDWTGEDMGSYSAGRDPIFYGHHGNVD
+	Oryza_sativa_CO                MRPAAHLADRAYLAKYERAVSLMKDPRSFEQQWRVHCAYCIHSCWLFFPWHRMYLYFHERILGITFALPFWNWDPLDLDYEVPHNPVHRWTGEDMGIYSAARDPVFFAHHGNVD
+	Glycine_max_CO12               MRPAAHLVNDEYLAKYKKALDLMKDPRNFTQQANVHCAYCIHNSWLFFPFHRWYLYFYEKILGITFALPFWNWDLVDLDFEVPHGSVHLWTGEDMGTYSAARDPIFFSHHSNID
+	Glycine_max_CO11               MRPAAHLVNDEYLAKYKKALDLMKDPRNFTQQANVHCAYCVHNSWLFFPFHRWYLYFYERILGITFALPFWNWDLVDLDFEVPHGPVHLWTGENMGTYSAARDPIFYSHHSNID
+	Glycine_max_CO9                MRPAAHLVDKNYLAKYKKAIDLMKDPRNFMQQANVHCAYCVHSSWLFFPYHRWFLYFYERILGITFALPFWNWDLVDFDFEVPHGPVHLWTGENMGDYSAARDPIFYSHHSNVD
+	Glycine_max_CO8                MRSAAHLVNKDYLAKYEKAVNLMKDPRSFAQQAKVHCAYCVHFSWLFFPYHRWYLYFHERILAITFALPFWNWDLVNLDFETPHGPVHAWTGEDMGNYAAARDPIFYCHHSNVD
+	Glycine_max_CO10               MRPAAHLVNDVYIAKYREALKRMKDPRNFTQQANVHCAYCVHNCWLFFPYHRWYLYFYERILGITFALPFWNWDLIDLDYEVPHGPVHSWTGENMGIYSAARDPIFFSHHANVD
+	Glycine_max_CO7                MRPPAQFVTDEYLEKYKLALKRMRDPRSFKQQADIHCAYCVHFSWLFFPFHRWYLYFYERILGITFALPYWNWDLVDLNYEGPHTALHRWTGEDMGRYSAGRDPIFYSHHANVD
+	Glycine_max_CO6                MRPPAQFVTDEYLEKYKLALKRMRDPRSFKQQADIHCAYCVHFSWIFFPFHRWYLYFYERILGITFALPYWNWDLVDLNYEGPHTAVHRWTGEDMGRYSAGRDPAFYSHHANVD
+	Glycine_max_CO2                MRPAAHLVTDDYIAKYEEAVRRMQDPRSFMQQANVHRAYCVHGSWIFFPWHRWYLYFYEKILGITFALPFWNWDFIDLDYESLHNTVHSWTGHDMGLATAAKDPIFFAHHSNVD
+	Glycine_max_CO1                MRPAAHLVTDDYIAKYEEAVRRMQDPRSFMQQANVHRAYCVHGSWIFFPWHRWYLYFYEKILGITFALPFWNWDFIDLDYESLHNTVHSWTGHDMGLATAARDPIFFAHHSNVD
+	Glycine_max_CO5                MRRPAQWVDDDYLNKYKEAVRLMRDPRNFMQQAKIHCAYCVHGNWLFAPFHRWYLYFHERILGITFALPFWNWDIVDLANEGPHNNVHRWTGIDMGYAWAARDPIFFAHHSNVD
+	Glycine_max_CO4                MRKPAHMVDEEYIAKLEKGIALMKDPRNFIQQAKVHCAYCIHRSWFFFPFHRWYLYFFERTLGINFALPFWNWDVVDLNYEAPHNTVHTWVGEDMGAYTAARDPIFYAHHPNSD
+	Glycine_max_CO3                MRKPAHMVDEEYIAKLEKGIALMKDPRNFIQQAKVHCAYCIHRSWFFFPFHRWYIYFFERILGLNFALPFWNWDVVDLNYEAPHNTVHKWVGEDMGTYTAARDPVFYPHHTNSD
+	Phragmatopoma_californica_tyr  MRKAYRHLSDSERKDFHDAIYQLKDLSNYDLFVNLHRSNSAHGGHAFAGWHRHCLYRFEKALQNDVTLCYLDTT----------------------------------------
+	Brugia_malayi_TYR2             MRKEYRQLSEEERQRFHSALNRLKRSGDYDKIAQWHSNPKAHSGPAFLPWHREYIKRLEIALRDDVSLPYWDSTIINGFIEYSHANALVWIGGDMFHITSANDPLFFLHHVFVD
+	Brugia_malayi_TYR4             MRKEYRMLTEDERLRYHNALNVLKQRGEYDRISMEHQSVGAHSGPGFLPWHREYIKRFEIALRDTVSVPYWDSVVINGPFEYSHSNVHLWIGGHMKPEQSSNDPIFFSHHAFVD
+	Caenorhabditis_briggsae_TYR2   MRKEYRMMSEAERARWHNALNTLKRNGEYDRLSRQHLEVGAHSGPGFLPWHREYLKRFEIALRDLVFIPYWDSVVVTGPFEYSHSNIHLWIGGDMKPSTSANEPIFFMHHSFVD
+	Caenorhabditis_remanei_TYR2    MRKEYRMMSEDERRRWHNALNTLKRNGEYDRLSRQHLEVGAHSGPGFLPWHREYLKRVEIALRDLVFIPYWDSVVITGPFEYSHSNIHLWIGGDMKPSTSANEPIFFMHHSFVD
+	Caenorhabditis_elegans_TYR2    MRKEYRMMTEDERRRWHNALNTLKRNGEYDRLSRQHLEVGAHSGPGFLPWHREYLKRVEIALRDTVFIPYWDSVVVTGPFEYSHSNIHLWIGGDMKPSTSANEPIFFMHHSFVD
+	Caenorhabditis_briggsae_TYR5   MRKEYRMMSDNERVRWHNAIMQLKRSGEYDRLSVMHRQVGAHSGPGFLVWHREYMKRMEIALRDGISMPYWDSVLVSGPFEYTHASIHLWMGGDMKPSTSANDPIFFLHHTFVD
+	Caenorhabditis_briggsae_TYR1   MRKEYRMMSDNERVRWHNAIMQLKRSGEYDRLSVMHRQVGAHSGPGFLVWHREYMKRMEIALRDGISMPYWDSVLVSGPFEYTHASIHLWMGGDMKPSTSANDPIFFLHHTFVD
+	Caenorhabditis_elegans_TYR1    MRKEYRMMSDNERQRWHNALIQLKRSGEYDRLSVMHRQVGAHSGPGFLVWHREYMKRMEIALRDGISMPYWDSVLVSGPFEYTHASIHLWMGGDMKPSTSANDPVFFLHHTFVD
+	Caenorhabditis_remanei_TYR1    MRKEYRMMTDNERTRWHNAIIQLKRSGEYDRLSVMHRQVGAHSGPGFLVWHREYMKRMEIALRDGISMPYWDSVLVSGPFEYTHASIHLWMGGDMKPSTSANDPVFFLHHTFVD
+	Brugia_malayi_TYR3             MRKEIRMLNKNERERFFTAIQQLKASGEYNRLADIHRQEAAHAGPSFLLWHREFIKRMEIALRDSIALPYWDSSVINGPFEYYHASVHIWIGGDMKPLTSANDPVFFLHHSFVD
+	Brugia_malayi_TYR1             MRKEYRMLTDQERKRFHNALIQLKRSGEYDKLALIHGRAAAHSGPAFLPWHREFIKRFEIALRDSVSIPYWDSVVTGGDFEYTHGNVHIFVGGDMYDYTSGNDPLFYLHHSFVD
+	Caenorhabditis_briggsae_TYR3   MRKEYRMLSEDERNRLHQAFRTLKQNGEYDRLARVHAQYSAHSGPAFLPWHREFVKRMEFLIRDSLHLPYWDSTVNNGPFEYTHGNPHIYVGGDMLESTAANDPIFWMHHSFVD
+	Caenorhabditis_elegans_TYR3    MRKEYRMLSDDERQRLHQAFRTLKQNGEYDRLARVHAQYSAHSGPAFLPWHREFVKRMEFLIRDSLHLPYWDSSVNNGPFEYTHGNPHIYVGGDMLESTAANDPIFWMHHSFVD
+	Caenorhabditis_remanei_TYR3    MRKEYRMLSEDERNRLHQALRTLKSNGEYDRLSRVHAQYAAHSGPAFLPWHREFVKRMEFLIRDSLHLPYWDSTVTNGPFEYTHGNPHIYVGGDMLESTAANDPIFWMHHSFVD
+	Caenorhabditis_briggsae_TYR4   MRKEYRMLTDDERNRLHAAFRALKNNGEYDRIGRIHSQMSAHSGPAFLPWHREFVKRVEFALRDSVSLPYWDSTVSNGPFEYTHGNVHIFVGGDMFDATSSNDPSFFLHHSFID
+	Caenorhabditis_remanei_TYR4    MRKEYRMLTDDERNRLHAAFRALKNNGEYERIGRIHSQMSAHSGPAFLPWHREFVKRVEFALRDTVNLPYWDSTVNNGPFEYTHGNVHIFVGGDMFDATSSNDPSFFLHHAFVD
+	Caenorhabditis_elgans_TYR4     MRKEYRTLTDDERNRLHAAFRALKNNGEYERIGRIHSQMSAHSGPAFLPWHREFVKRVEFALRDTVNLPYWDSTVNDGPFEYTHGNVHIFVGGDMFDATSSNDPSFFLHHAFID
+	Caenorhabditis_briggsae_TYR6   MRRELRSLRDEDRRMIEDAWNAMKKSGLYNKIGRVHKYSGVHSGPAFTLWHREFLKRLELALRMDFGLPFWDSTVKNGPYEFSHDYVHFFVNGDMSKYSSSNDVCFVYHHGMID
+	Caenorhabditis_elegans_TYR5    MRRELRSLRPDDRIMIENAWNAMKKSGLYNKIGRVHKYSGVHSGPAFTLWHREFLKRLELALRMDFGLPFWDSTVKNGPYEFSHDYVHFFVNGDMSKYSSSNDVCFVYHHGMID
+	Pinctada_fucata_tyr2           MRQECRTLSDGARGALFGAIVDLKGMSRYDTIAGMHSFAAAHLGPSFLGWHRVYLIMYEEALQRDVVLCYWDSTVINGAFEQEHDNTHVWVGEIMRDVAAPGDPVFFFHHTFID
+	Pinctada_fucata_tyr3           MRQECRTLSDGARGALFGAIVDLKGMSRYDTIAGMHSFAAAHLGPSFLGWHREYLIMYEEALQRDVVLCYWDSTVINGAFEQEHDNTHVWVGEIMQDVAAPGDPVFFFHHTFID
+	Pinctada_fucata_tyr4           MRQECRTLSDPDRNALFGAIVTLKGMSRYNTLAAMHNLQAAHNGPNFLGWHRVYLNMYEEALQRGVALCYWDSTVINSQFEREHDNTHVWVGGIMVNERSPEDPVFWFHHLYID
+	Pinctada_fucata_tyr1           MRRECRSLTSEEWRRLANAIRRLKPGNRFDTMARIHAMPAAHDGSSILGWHRVFLYLFENALRVGVVLCYWDSTVRTGPFEAEHNNAHVAVGALMAVPNAAWDPLFYFHHCYID
+	Lottia_gigantea_tyr2           MRRDCRLLDEDELSDLFGAVQDAKRPNVLDAFSFLHSRNEAHGGVGFLPFHRVFLYLYEKLLRRGVSLCFWDPTVSEGFAEELHNHVHLYIGGLMAQETAAYDPIFWFYHVYVD
+	Caenorhabditis_remanei_TYR5    MRKEIRMMSPSELRDLGIAMNGLKNITAWDLHTLVHYPDSAHWGPAFLPWHREFLRQFEIALQVSVTLPYWDSTVKTGPFESMHGLSHVWVGGFMYVRVSPNDPTFYMHHAFID
+	Illex_argentinus_tyr1          MRKEYRMMTNEERDNYHRAIVMLKLPNKFEIIADLHAGSVAHGGPGFLPWHRIYMMIWEEGLRVTVVVPYWDVTVTVGPFELYHNNIHDWIGGTVSVAWASFDPAFMLIHGYVD
+	Illex_argentinus_tyr2          MRKEYRMMTNEERDNYHRAIVMLKLPNKFEIIADLHAGSVAHGGPGFLPWHRIYMMIWEEGLRVTVVVPYWDVTVTVGPFELYHNNIHDWIGGTVSVAWASFDPAFMLIHGYVD
+	Sepia_officinalis_tyr          MHKEYRMMTNEERENYHQAIIMLKLPNKFEVIADLHVGFIAHGGPGFLPWHRIYMMIWEEGLRISVVVPYWDVTVTSGPFELYHNNIHDWIGGTVSVAWASFDPAFMLIHGYVD
+	Lottia_gigantea_tyr1           MRKEYRMLTSAERDNYHNAINALKTPNMYDAVAMFHVGDAAHGGPGFLGWHRMYLVMYERALQVGVCIPYIDNTVTSGPFEYHHGSYHIHVGGLMESDTASFDPVFFMHHAYID
+	Neurospora_crassa_tyr3         MRRELRDLQQNYPELYLLGLRDFQKLDSYYQVAGIHGMPFTHSSILFITWHRPYLALYEQALYVDFRAPYFDWATKSGDFEDVHNEIHDRTGGHMSSEVSAFDPLFWLHHVNVD
+	Neurospora_tetrasperma_tyr3    MRRELRDLQQNYPELYLLGMRDFQKLDSYYQVAGIHGMPFTHSSILFITWHRPYLALYEQALYVDFRAPYFDWATKSGDFEDVHNEIHDRTGGHMSSEVSAFDPLFWLHHVNVD
+	Neurospora_crassa_tyr2         MRQEIRQLEQDKELLYILGLSLMQSPVSWYGITGIHGIPHTHSSILFPTWHRPYLALYEQVLYIRFRIPYWDWAVQRAFLEAIHDTVHNLAGGHMAYPYSSFDPIFFLHHAMVD
+	Neurospora_tetrasperma_tyr2    MRQEIRQLEQDKELLYILGLSLMQSPVSWYGITGIHGIPHTHSSILFPTWHRPYLALYEVLLYIRFRIPYWDWAVQRAFLEAIHDTVHNLAGGHMAYPYSSFDPIFFLHHAMVD
+	Neurospora_crassa_tyr1         MRRNINDLYARGGPLYILALSEMQEELSYFSLAGIHGLPHPHGETIFASWHRPYVALFEQTLVATLRLPFWDWATLRCKFEDPHNTVHNNAGGTMANAWSAFDPLFMLHHANTD
+	Neurospora_tetrasperma_tyr1    MRRNINDLYARGGPLYILALSEMQEELSYFSLAGIHGLPHPHGETIFAPWHRPYVALFEQTLVATLRLPFWDWATLRCKFEDPHNTVHNNAGGTMANAWSAFDPLFMLHHANTD
+	Dictyostelium_discoideum_tyr2  MRKNAAHLSEEERNKFLVAIVGLKKYSVYDQFVILHMGAVGHGNPAFLSWHRMLLNKFEKALQDSVTLPYWDWTLVNSVFEKAHNPTHDWYGSTMTNACSNNDPIFWLHHCNID
+	Dictyostelium_discoideum_tyr1  MRKNAAHLSEEERNKFLVAIVGLKKYSVYDQFVILHMGAVGHGNPAFLSWHRMLLNKFENALQDSVTLPYWDWTIVNSVFEKAHNPTHDWYGSTMTNACSNNDPIFWLHHCNID
+	Candidatus_nitrosopumilus_tyr  MRKNASSLNPIERENFCKAVLTLKALNRYDEFVAIHFGVTAHGNSGFLPWHREFLCRFEHALKDTVSLPYWDWSVNSGYFEPPHNHVHGVTVGHMGWMTSPNDPIFFLHHANVD
+	Streptomyces_tsukubaensis_tyr  MRKNQANLTAAEKKAFVDAVLEVKRRGIYDEFVAAHRLRFGHFGPSFLPWHRKYLIDFERELQNQVSIPYWDWTVMDGPFESMHNRVHTWVWGQMESSVSPNDPVFWLHHAFVD
+	Streptomyces_venezuelae_tyr    MRKNQATLSADEKRRFVNALLELKRSGRYDTFVTTHNAFIGHRSPSFLPWHRRFLIEFEQALQDTVNLPYWDWTVLDGPFENLHNRVHVWVGGQMGTGVSPNDPVFWLHHAFVD
+	Bacillus_megaterium_tyr2       MRKNVLRLTDTEKRDFVRTVLILKEKGIYDRYIAWHGAAGAHMSSAFLPWHREYLLRFERDLQNEVTLPYWEWEVDTGPFEQLHNRVHRWVGGQMGVPTAPNDPVFFLHHANVD
+	Bacillus_megaterium_tyr1       MRKNVLHLTDTEKRDFVRTVLILKEKGIYDRYIAWHGAAGAHMSSAFLPWHREYLLRFERDLQNEVTLPYWEWEVDTGPFEQLHNRVHRWVGGQMGVPTAPNDPVFFLHHANVD
+	Nitrosomonas_europeae_tyr      MRKDANTLTAAERAEFVAAIRVLKAEGIYDRFVLRHANANIHRCSAFLPWHRRFIYDLELELQSNLGIPYWNWPVRTGPFENLHNRGHVWVGGSMLPMTSPNDPVFFMHHCMVD
+	Polysphondylium_pallidum_tyr1  MRKSIREITESERSEYVYRVTILKKSGVYDKFVAEHHKFSIHGTDIFLPWHRIFVRKFEEEMRNNYTLPYWDWEIKTGPFERYHNRVHRFVGGDMSRHTSANDPVFWLHHCNVD
+	Sepia_officinalis_Hc           MRKNVDTLSHDEILNLQIALRNMQGATGYQAISAYHGEPALHGMPTFPMWHRLYMVQFEQAVAGTLGIPYWDWTAKKNVFEVAHNPIHYLVGHSMSSEYTSYDPLFFLHHSNVE
+	Megathura_crenulata_Hc         MRKNVDSLSSDEVLALEKALDDLQSNQGYQAIAGYHGVPTLHGMPSFPLWHRLYVVQLERALIKTISIPYWDWTAHDNSWELAHNAIHYLVGYSMSHEYTSYDPLFFLHHSNTD
+	Nucula_nucleus_Hc              MRKDVDSLTTAEVLALQEALKEVQGPTGYQAIAAYHGYPGIHGMPTFPQWHRLFTTQMEQALRGGIGVPYWDWTALKNYWEVAHNDIHYLVGKSMSSEYTSYDPIFFLHHSNVD
+	Aplysia_californica_Hc         MRKSVDQLTSEEILNLQKSLREVNSNLGYAAIASYHGYPTLHGSPVFPQWHRLYVVQMEQALKGSIGLPYWDWTARGNVWEVAHNTIHYLVGYSMSHEYTSYDPIFFLHHSNVD
+	Ciona_intestinalis_HcF         MRKNLLDLTDEELHDFIQGFTKFKSLFGYLNIAKWHGWPNWHNHPMFLPWHRLIMVQLELGLSMTLGIPYWDWTYVPNPFEDAHGQVHNCMCYSMLKAYSCFDSAFFLHHSQID
+	Ciona_intestinalis_HcE         MRKNLLDLTDEELHDFIQGFTKFKSLFGYLNTVKWHGWPHWHQHPMFLPWHRLIMVQLELGLSMTLGIPYWDWTYVPNPFERSHSQIHNCMCYSMLTEYSCFDPTFFLHHSQID
+	Ciona_intestinalis_HcG         ------------------------------------------------------------GLSMTLGIPYWDWTYVPNPIALSHDQIHNCMCYSFDTGFSAFEPAFLLHHSQID
+	Ciona_intestinalis_HcH         ------------------------------------------------------------SLSMTLGIPYWDWTYVPNPFSFSHDQIHNCVCYSMDTDYSAFDAMFFLHHSQMD
+	Ciona_intestinalis_HcI         ----------------------------------------------FLPWHRLIMVQLELGLSMTLGIPYWDWTYVPNPFSHSHDDIHNCVCYSMVTDFAAFDALFFLHHSQMD
+	Ciona_intestinalis_HcD         MRKNIRSLTEEETFDILQAMAQFKSTNGYTNIVSWHGWPYWHSDLRFCAWHRLIMVQLEMGLSLTLGIPYWDWTTYPNPFENPHNQIHRCFCYGMPITYAGWDPAFLLHHSQVE
+	Ciona_intestinalis_HcC         MRKNIRSLTEEETFDILQAMARFKSTDGYTNIVSWHGWPFWHVDLRFCAWHRIFMVQVEMGINLTLGIPYWDWTTYPNPF----------------------------------
+	Ciona_intestinalis_HcB         ------------------------------------------------------------RLNLTLGIPYWDWTTYPNPFENPHNQIHVCFCYGMPTPYAAWDPAFLLHHSQMD
+	Ciona_intestinalis_HcA         --------------------------------------------------------------------------------EGPHNQIHMCMCYGMPTKYAAWDPIFLLHHSQID
+	Agaricus_bisporus_tyr          MRLNILDFVKNDKFLYVRALQVLQDYSSFFQLGGIHGLPYTHGTVLFPTWHRAYESTWEQTLCADLRQPFWDWGKIEGDFEMVHNTVHFLIGGHMGSPHAAFDPIFWMHHCNVD
+	Nematostella_vectensis_tyr4    MRKDFESMSIPERRLYIQTLKKASYKSEYDRITKYHSDLFVHILEYFFPWHRWYLLLFENLLRDRVTVPYWDWSVTNGPLEVMHNDFHNAIGGVMSLDASANAPEFWFHHGYID
+	Nematostella_vectensis_tyr3    MRKDFPSMSLEERRRFISALIRVSFIKTYDKLTHLHPKFFVHNKKNFFPWHRWFILNFENFIRDRVTVPYWDWSVIDGPFRAIHDEFHNAVGGTMMLACSSNAPEFWFHHGFLD
+	Nematostella_vectensis_tyr1    MRKDFIWMPLGDRRRFIAAFKKLTYKKEYDTIVRVHREHRIHSARYFLPWHRQFLLNLENQMRKRLTIPYWDWTVLDGPFRIFHHFVRCAIGGTACSLDSARSPEFLLITAYID
+	Nematostella_vectensis_tyr2    MRGEFTRMPYEERARYTRAFYKATYKDDFEKLLIEHSRLPHHMPQIFFPWHRWYLSKIESFLKMRVTIPYWQWTVQDGIFETFHNRFHDCVGRLMHFVTASDTPEFPLHHAFID
+	Hydra_magnipapillata_tyr       MRREFSSMSREERDLYLNTFKEFSYIEIYEKFVMSHQKYFIHEAKQFYPWHRSYILKFESLLRVRVTLPFWNWAVTEGIFESWHNTIHKAIGGHMGTEYASYSPEFWSHHAMLD
+	Ectocarpus_siliculosus_tyr12   MRREVRQLKAEDREAFLDAMEKLYDYKGISFFVQMHLDGAWHDDAGIMTHHVGYTMLFEQALQDSVTIPYWEYTVDNGRWNGTHGPVHIKMGGEWNNSSAPYDPLFWVIHPTAE
+	Ectocarpus_siliculosus_tyr13   MRREIRSLTDKDREAFFDAMETLYEYKGINFFVQMHLNGAWHDDAGIMTHHVGYTLLFEQALQDAVTIPYWEYTVDKGRWNGTHGPVHIKVGGEWNDSSAPYDPLFWVIHPTAE
+	Ectocarpus_siliculosus_tyr16   MRREIRDLTDRDRETFFNAVSVLQKYYSKDYFNRLHLFYGWHDGAGFVTSHIALSLMYEQALQSSIALPYWDFTPSRGRFNGAHGHIHELLGGAWSSGTSTNDVTFWVLHPTMD
+	Ectocarpus_siliculosus_tyr18   MRREIRTLTDRDRETFFNAVSIMQKYYSKDFFNRIHLYYGWHAGAGFVTSHIAVSLMYEQSLQNAIALPYWDFTPARGRFNGAHGEIHELLGGAWSSATSTNDPTFWLIHPTFD
+	Ectocarpus_siliculosus_tyr17   MRREIRSLTDRDRETFFNAVAVLQKYYSKDYFNRMHLYYGWHAGAGFVTSHIAITLMYEQALQNSIALPYWDVTPTQGRFNGAHGNIHGLLGGTWSPATSTNDVTFWVLHPTFD
+	Ectocarpus_siliculosus_tyr14   MRREIRDLTDRDREAFFNAVSVLQKYYSMDYFTRMHLYGGWHEGTGFMNAHMGFTLMFEQALQNSIAVPYWDFTPDRGRFGSAHGHIHEIVGGAWSMATSTIDPIFWVIHPTIE
+	Ectocarpus_siliculosus_tyr15   MRREIRSLSDQDREMFFNAMAVMQNYYSKDYLTRLHLYYGWHQGAGFVTSHMALTLMFEQSLQNAVTVPYWDFTPTKGRFNAAHGHIHETVGGSWNHATSTNDITFWVLHPSVD
+	Ectocarpus_siliculosus_tyr7    MRREIRSLFDDERDQMFDAMKVLWDYLDVWTIDQFHQIGALHDGIGFGITHSMVTMMFENSLQNMLSLPYWDFTVKDGRWQGPHGPVHVWVGGNVDCSSSPLDPTFWSMHPTME
+	Ectocarpus_siliculosus_tyr11   MRREIRTLTDDEREELFDAMFALWDYADIYAINRLHYKAAFHDGLGFLTSHSMISNTFEFSLQNKLTLPYWDFTVKDGRWLDPHGPVHIWVGGVLDCASSSLDPSFWSTHPTME
+	Ectocarpus_siliculosus_tyr10   MRREIRTLTDEDREELLDAMLELWNYSDIWAINRLHFKAAFHDGLGFLTNHGLISNTFENSLQNKLTLPYWDFTVQNGRWLDPHGPVHIWIGGVMDCSSSSLDPSFWSTHPTME
+	Ectocarpus_siliculosus_tyr8    MRREIRSLTDDEREELLDAMFTIWGYADIYAINRLHHKAAFHDGLGFLVSHSVLTNTFEYSLQNKLTVPYWDFTVKDGRWMAPHAPLHLWLGGTMDCSSSSYDPLFWPIHPTME
+	Ectocarpus_siliculosus_tyr9    MRREIRTLTDDEREELFDAMFTLWDYADIYAINRLHFKAAFHDGLGFLTSHSLISNTFEYSLQNKLTLPYWDFTVKDGRWMAPHGPVHTWIGGVLNCAGSSLDPTFWPMHPTME
+	Ectocarpus_siliculosus_tyr4    MRRELRDLSEADREAFLDAMEAYYGFFDYQLLASYHSADLYHAGVQFLTAHAAFGLMLERSLQNRVSLPFWDYMISDGRFEKVHGDMHGLLGGAFKCGVSPMDPLFWVLHPMFE
+	Ectocarpus_siliculosus_tyr3    MRREIRDLTDGDREAFLDAMETWYNYSNYMSIAAIHGTDYYHQGMQFLTSHAAFDLIVERYLQDTVSLPVWDYMVTGGRFQKIHGDIHGLLGGAFDCAASPVDPIFWVLHPLFE
+	Ectocarpus_siliculosus_tyr2    MRREIRELTDRDREAFFDAMQTWYDFSNYMPVTAIHGTEVYHQGMQFLTSHAAFDLTMERYLQDTVSLPVWDYMVTGGRFQKIHGDIHGLLGGAFDCTASPVDPLFWVLHPLFD
+	Ectocarpus_siliculosus_tyr1    MRREIRDLTDRDREAFLDAMLIWYSFSNYQVITAYHNADVYHIGLQFLTSHAAFDLTMERYLQDSVSLPMWDFMIPESRFEMVHGDIHGLLGGAFSCLASPLDPLFYMLHSMFE
+	Ectocarpus_siliculosus_tyr6    MRRELRSLTGEDRTGFFAAMREFYGFSNAKHVAAYHNSPDFHNGMHFLNAHAAFDLWVEKNLQDKVSLPQWDYMISDGWFEQVHASIHGMIGGGFDCGAAPLDPIFWTLHSGFE
+	Ectocarpus_siliculosus_tyr5    MRRELRDLTSADRTAFFSAMREFYTFANSKIISTYHNTRNFHSGMHFLNAHASFDLWAERSLQDTVAMHYWDFTISEGWFEQVHAANHGMMGGAFNCGPSILDPVFWALHPIFE
+	Aspergillus_aculeatus_tyr      MRQDLAAWSSSTNVLFLRALDKLQDQLSYFRLAGIHGAPSHHNDYLFPTWHRPYMLLYEQCLHMRWRLPYWDWAVNRGKYEMVHNNIHEWSGGHMANPVSSFDPVFWMHHCNVD
+	Lottia_gigantea_Hc             MRYSLRELEDLPKKDFLKAWKLVKNPNSFWSIASYHGMPFQHSNVLFPTWHRFYCLRMEQALQLDVALHYWDTTVKPEGYEQPHNDIHLSIGGEMGAEVAAFDPIFFSHHSNID
+
+;
+
+
+END;
+
+BEGIN TREES;
+	Title 'Type-3 copper alpha subclass Bayesian Inference tree';
+	LINK Taxa = Taxa;
+	TRANSLATE
+		1 Vitis_vinifera_CO,
+		2 Oryza_sativa_CO,
+		3 Glycine_max_CO12,
+		4 Glycine_max_CO11,
+		5 Glycine_max_CO9,
+		6 Glycine_max_CO8,
+		7 Glycine_max_CO10,
+		8 Glycine_max_CO7,
+		9 Glycine_max_CO6,
+		10 Glycine_max_CO2,
+		11 Glycine_max_CO1,
+		12 Glycine_max_CO5,
+		13 Glycine_max_CO4,
+		14 Glycine_max_CO3,
+		15 Phragmatopoma_californica_tyr,
+		16 Brugia_malayi_TYR2,
+		17 Brugia_malayi_TYR4,
+		18 Caenorhabditis_briggsae_TYR2,
+		19 Caenorhabditis_remanei_TYR2,
+		20 Caenorhabditis_elegans_TYR2,
+		21 Caenorhabditis_briggsae_TYR5,
+		22 Caenorhabditis_briggsae_TYR1,
+		23 Caenorhabditis_elegans_TYR1,
+		24 Caenorhabditis_remanei_TYR1,
+		25 Brugia_malayi_TYR3,
+		26 Brugia_malayi_TYR1,
+		27 Caenorhabditis_briggsae_TYR3,
+		28 Caenorhabditis_elegans_TYR3,
+		29 Caenorhabditis_remanei_TYR3,
+		30 Caenorhabditis_briggsae_TYR4,
+		31 Caenorhabditis_remanei_TYR4,
+		32 Caenorhabditis_elgans_TYR4,
+		33 Caenorhabditis_briggsae_TYR6,
+		34 Caenorhabditis_elegans_TYR5,
+		35 Pinctada_fucata_tyr2,
+		36 Pinctada_fucata_tyr3,
+		37 Pinctada_fucata_tyr4,
+		38 Pinctada_fucata_tyr1,
+		39 Lottia_gigantea_tyr2,
+		40 Caenorhabditis_remanei_TYR5,
+		41 Illex_argentinus_tyr1,
+		42 Illex_argentinus_tyr2,
+		43 Sepia_officinalis_tyr,
+		44 Lottia_gigantea_tyr1,
+		45 Neurospora_crassa_tyr3,
+		46 Neurospora_tetrasperma_tyr3,
+		47 Neurospora_crassa_tyr2,
+		48 Neurospora_tetrasperma_tyr2,
+		49 Neurospora_crassa_tyr1,
+		50 Neurospora_tetrasperma_tyr1,
+		51 Dictyostelium_discoideum_tyr2,
+		52 Dictyostelium_discoideum_tyr1,
+		53 Candidatus_nitrosopumilus_tyr,
+		54 Streptomyces_tsukubaensis_tyr,
+		55 Streptomyces_venezuelae_tyr,
+		56 Bacillus_megaterium_tyr2,
+		57 Bacillus_megaterium_tyr1,
+		58 Nitrosomonas_europeae_tyr,
+		59 Polysphondylium_pallidum_tyr1,
+		60 Sepia_officinalis_Hc,
+		61 Megathura_crenulata_Hc,
+		62 Nucula_nucleus_Hc,
+		63 Aplysia_californica_Hc,
+		64 Ciona_intestinalis_HcF,
+		65 Ciona_intestinalis_HcE,
+		66 Ciona_intestinalis_HcG,
+		67 Ciona_intestinalis_HcH,
+		68 Ciona_intestinalis_HcI,
+		69 Ciona_intestinalis_HcD,
+		70 Ciona_intestinalis_HcC,
+		71 Ciona_intestinalis_HcB,
+		72 Ciona_intestinalis_HcA,
+		73 Agaricus_bisporus_tyr,
+		74 Nematostella_vectensis_tyr4,
+		75 Nematostella_vectensis_tyr3,
+		76 Nematostella_vectensis_tyr1,
+		77 Nematostella_vectensis_tyr2,
+		78 Hydra_magnipapillata_tyr,
+		79 Ectocarpus_siliculosus_tyr12,
+		80 Ectocarpus_siliculosus_tyr13,
+		81 Ectocarpus_siliculosus_tyr16,
+		82 Ectocarpus_siliculosus_tyr18,
+		83 Ectocarpus_siliculosus_tyr17,
+		84 Ectocarpus_siliculosus_tyr14,
+		85 Ectocarpus_siliculosus_tyr15,
+		86 Ectocarpus_siliculosus_tyr7,
+		87 Ectocarpus_siliculosus_tyr11,
+		88 Ectocarpus_siliculosus_tyr10,
+		89 Ectocarpus_siliculosus_tyr8,
+		90 Ectocarpus_siliculosus_tyr9,
+		91 Ectocarpus_siliculosus_tyr4,
+		92 Ectocarpus_siliculosus_tyr3,
+		93 Ectocarpus_siliculosus_tyr2,
+		94 Ectocarpus_siliculosus_tyr1,
+		95 Ectocarpus_siliculosus_tyr6,
+		96 Ectocarpus_siliculosus_tyr5,
+		97 Aspergillus_aculeatus_tyr,
+		98 Lottia_gigantea_Hc;
+	TREE con_50_majrule = (((56:0.009319,57:0.006389):0.194768,(58:0.345995,59:0.313504):0.127859):0.054927,(53:0.369005,(51:0.011366,52:0.009882):0.40621,((54:0.253172,55:0.065738):0.136545,(76:0.439063,(74:0.224285,75:0.213208):0.100183,(77:0.444252,78:0.328553):0.128215):0.429406):0.10777,((97:0.341524,((73:0.337651,(49:0.005909,50:0.009274):0.334535):0.089365,((45:0.005075,46:0.009734):0.262971,(47:0.005478,48:0.016302):0.24812):0.088727):0.102473):0.23589,((10:0.010313,11:0.00464):0.066754,(1:0.126919,((13:0.029373,14:0.028299):0.147586,(12:0.126076,(8:0.011967,9:0.018276):0.130496):0.073807):0.027048,(2:0.126446,(6:0.069408,(5:0.03848,(7:0.103755,(3:0.038296,4:0.004639):0.019232):0.040578):0.050931):0.049033):0.037806):0.080918):0.584059,(98:0.366165,((60:0.122553,(62:0.143391,(61:0.173532,63:0.09772):0.039882):0.051507):0.297758,((72:0.06692,(69:0.032233,(70:0.054367,71:0.056515):0.040047):0.085634):0.131661,((64:0.064182,65:0.026081):0.063476,(66:0.132451,(67:0.038108,68:0.076707):0.078045):0.041786):0.117101):0.303684):0.207122):0.1122):0.273892,(15:0.303021,((44:0.18477,(43:0.05806,(41:0.004453,42:0.004232):0.027784):0.339832):0.133443,(39:0.417121,(38:0.328348,(37:0.115524,(35:0.007332,36:0.014606):0.130281):0.238165):0.084682):0.101):0.142037,((86:0.190209,(89:0.120984,(90:0.039335,(87:0.023566,88:0.11923):0.04425):0.034389):0.118366):0.211421,((91:0.177779,(95:0.167121,96:0.174081):0.216597):0.066603,(94:0.130085,(92:0.072695,93:0.043934):0.094369):0.054569):0.330931,((79:0.103441,80:0.014781):0.202409,(84:0.069007,(85:0.158286,(81:0.052985,82:0.08242,83:0.067219):0.06939):0.094556):0.243275):0.15788):0.455651,(40:0.381768,(26:0.114134,((28:0.0193,(27:0.00473,29:0.034376):0.011082):0.126515,((33:0.014374,34:0.021134):0.523468,(30:0.00841,(31:0.00971,32:0.018037):0.031009):0.040079):0.080698):0.090852,(16:0.207204,(25:0.165347,((17:0.138108,(20:0.008275,(18:0.025916,19:0.009625):0.016041):0.069171):0.060143,(23:0.006997,(24:0.012195,(21:0.004372,22:0.0046):0.02179):0.015718):0.110814):0.088092):0.030992):0.051526):0.143538):0.073397):0.119117):0.054927);
+
+END;
+
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  114;
+
+END;
+
+BEGIN CODONS;
+	CODESET * UNTITLED   =  universal:  1 -  114;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1 -  114;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1362361440689;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 802356959625510491;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 8206679989898164734;
+			mqVersion 275;
+			checksumv 0 3 442645093 null  getNumChars 114 numChars 114 getNumTaxa 98 numTaxa 98   short false   bits 1048575   states 1048575   sumSquaresStatesOnly 1.88936221284499E14 sumSquares 1.88936221284499E14 longCompressibleToShort false usingShortMatrix false   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1280 690;
+			setLocation 0 22;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #802356959625510491 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #802356959625510491;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1180 623;
+					setLocation 0 22;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #802356959625510491  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 5646.1362361402616.3469779528219245797;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1180 623;
+					setLocation 0 22;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareTree.SquareTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle on;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+						endTell;
+						setEdgeWidth 6;
+						orientUp;
+						setCornerMode Right_Angle  50;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					showWindow;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					setDigits 4;
+					writeAsPercentage off;
+					toggleCentred on;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #8206679989898164734 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1180 623;
+					setLocation 0 22;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+
