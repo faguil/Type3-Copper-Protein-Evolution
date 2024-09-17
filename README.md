@@ -24,3 +24,4 @@ The files in this repository are ready for use. Simply click on the file, and yo
 
 ## Index of data file contents
 
+[01-Dataset.xlsx](https://github.com/faguil/Type3-Copper-Protein-Evolution/blob/main/01-Dataset.xlsx) contains the list of accession numbers, genome localisation and protein nomenclature used in this study.
