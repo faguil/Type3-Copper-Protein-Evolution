@@ -14,8 +14,8 @@ All files are publicly available and can be used for further research or other a
 
 ## Author contact
 
-- Felipe Aguilera f.aguilera@uq.edu.au (first author)
-- Carmel McDougall c.mcdougall@uq.edu.au (senior author)
+- Felipe Aguilera f.aguilera@uq.edu.au (first author - PhD student)
+- Carmel McDougall c.mcdougall@uq.edu.au (senior author - PostDoc)
 - Bernie Degnan b.degnan@uq.edu.au (corresponding author)
 
 ## How to download data files
