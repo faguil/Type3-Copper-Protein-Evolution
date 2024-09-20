@@ -24,7 +24,7 @@ The files in this repository are ready for use. Simply click on the file, and yo
 
 ## Index of data file contents
 
-[01-Dataset.xlsx](https://github.com/faguil/Type3-Copper-Protein-Evolution/blob/main/01-Dataset.xlsx) contains the list of accession numbers, genome localisation and protein nomenclature used in this study.
+[01-Dataset.xlsx](https://github.com/faguil/Type3-Copper-Protein-Evolution/blob/main/01-Dataset.xlsx) contains a list of accession numbers, genome localisation and protein nomenclature used in this study.
 
 [02-Phylogenetic-tress-alpha-subclass-copper-proteins.pdf](https://github.com/faguil/Type3-Copper-Protein-Evolution/blob/main/02-Phylogenetic-tress-alpha-subclass-copper-proteins.pdf) contains the phylogenetic trees of the α-subclass copper proteins based on Neighbor-Joining (NJ), Maximum-Likelihood (ML), and Bayesian Inference (BI) phylogenetic reconstruction methods.
 
