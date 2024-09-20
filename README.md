@@ -36,4 +36,4 @@ The files in this repository are ready for use. Simply click on the file, and yo
 
 [06-treeBase-phylogenetic-tree-files](https://github.com/faguil/Type3-Copper-Protein-Evolution/tree/main/06-treeBase-phylogenetic-trees-files)) This folder contains all the phylogenetic trees generated in this study using the Neighbor-Joining (NJ), Maximum-Likelihood (ML), and Bayesian Inference (BI) methods. More detailed information about these files is available in the TreeBase database at the following link: https://treebase.org/treebase-web/search/study/summary.html?id=13985
 
-[07-Lineage-specific-expansions-copper-proteins.pdf](https://github.com/faguil/Type3-Copper-Protein-Evolution/blob/main/07-Lineage-specific-expansions-copper-proteins.pdf) contains lineage-specific expansion of type-3 copper gene subclasses and their physical linkage.
+[07-Lineage-specific-expansions-copper-proteins.pdf](https://github.com/faguil/Type3-Copper-Protein-Evolution/blob/main/07-Lineage-specific-expansions-copper-proteins.pdf) contains the lineage-specific expansion of type-3 copper gene subclasses and their physical linkage.
